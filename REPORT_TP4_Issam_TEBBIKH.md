@@ -418,7 +418,7 @@ u2@ubuntu-VirtualBox:/home/ubuntu/test$
 - chmod u=rx,g=wx,o=r fic  ==> chmod 534 fic
 - chmod uo+w,g-rx fic en sachant que les droits initiaux de fic sont r--r-x---  ==> chmod 602 fic
 - chmod 653 fic en sachant que les droits initiaux de fic sont 711 ==> chmod u-x,g+r,o+w fic
-- chmod u+x,g=w,o-r fic en sachant que les droits initiaux de fic sont r--r-x--- ==> chmod 574 fic
+- chmod u+x,g=w,o-r fic en sachant que les droits initiaux de fic sont r--r-x--- ==> chmod 520 fic
 
 ### 14. Affichez les droits sur le programme passwd. Que remarquez-vous ? En affichant les droits du fichier /etc/passwd, pouvez-vous justifier les permissions sur le programme passwd ?
 
